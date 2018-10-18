@@ -15,6 +15,11 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_btn_test_tip_label_1_clicked();
+
+    void on_btn_test_tip_label_2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
