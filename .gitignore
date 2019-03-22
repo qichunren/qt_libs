@@ -1,1 +1,4 @@
 /nt-qt-libs.pro.user
+*.o
+moc_*.cpp
+ui_*.h

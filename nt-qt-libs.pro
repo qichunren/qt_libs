@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp gui/tip_label.cpp
+		mainwindow.cpp gui/tip_label.cpp gui/virtual_keyboard_widget.cpp
 
-HEADERS  += mainwindow.h gui/tip_label.h
+HEADERS  += mainwindow.h gui/tip_label.h gui/virtual_keyboard_widget.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui gui/virtual_keyboardwidget.ui
+
+OTHER_FILES += README.md
