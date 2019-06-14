@@ -20,3 +20,6 @@ HEADERS  += mainwindow.h gui/tip_label.h gui/virtual_keyboard_widget.h
 FORMS    += mainwindow.ui gui/virtual_keyboardwidget.ui
 
 OTHER_FILES += README.md
+
+RESOURCES += \
+    resource.qrc

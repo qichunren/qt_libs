@@ -1,0 +1,41 @@
+QPushButton {
+	background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #000000,stop:0.5 #282828,stop: 1.0 #282828);
+	border: 1px solid rgb(124, 124, 124);
+	color: #FFF;
+}
+
+QSlider {
+	min-height: 68px;
+	max-height: 68px;
+	background: transparent;
+}
+
+QSlider::groove:horizontal{
+	border: 1px solid #BDBDBD;
+	background: #9DC1F6;
+	height: 14px;
+}
+
+QSlider::handle:horizontal {
+	background-color: #2B7CF2;
+	background-position: center;
+
+	width: 20px;
+	margin-top: -12px;
+	margin-bottom: -12px;
+
+	border-radius: 2px;
+}
+
+
+QListView::item {
+	color: #FF9900;
+	height: 32px;
+}
+
+QComboBox {
+	color: #FF9900;
+	height: 44px;
+
+
+}

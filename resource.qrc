@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file>default_style.css</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>images/arrow-pointing-down.png</file>
+        <file>images/arrow-up.png</file>
+        <file>images/music-player-play.png</file>
+        <file>images/pause-button.png</file>
+        <file>images/plus-black-symbol.png</file>
+        <file>images/remove-symbol.png</file>
+        <file>images/sort-arrows-couple-pointing-up-and-down.png</file>
+        <file>images/sort-down.png</file>
+        <file>images/sort-up.png</file>
+        <file>images/video-player-stop-button.png</file>
+    </qresource>
+</RCC>

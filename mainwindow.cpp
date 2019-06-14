@@ -53,3 +53,16 @@ void MainWindow::on_btn_page_2_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
 }
+
+void MainWindow::on_play_button_clicked(bool checked)
+{
+    if(checked) {
+        QIcon pause_icon(":/icons/images/pause-button.png");
+        ui->play_button->setIcon(pause_icon);
+        ui->play_button->setText("Pause");
+    } else {
+        QIcon play_icon(":/icons/images/music-player-play.png");
+        ui->play_button->setIcon(play_icon);
+        ui->play_button->setText("Play");
+    }
+}

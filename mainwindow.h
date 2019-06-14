@@ -26,6 +26,8 @@ private slots:
 
     void when_keyboard_pressed(QString key);
 
+    void on_play_button_clicked(bool checked);
+
 private:
     void _setup_virtual_keyboard_widget();
 
